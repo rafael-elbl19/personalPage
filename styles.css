@@ -19,16 +19,14 @@ nav {
     width: 100%;
     height: 75px;
     display: flex;
-    flex-direction: rox;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
 nav ul {
     display: flex;
-    flex-direction: row;
     padding: 10px;
-    
 }
 
 nav ul {
@@ -42,6 +40,16 @@ nav ul li {
 nav ul li a{
     text-decoration: none;
     padding: 12px; 
+    color: #FFFFFF;
+}
+
+nav ul p {
+    color: #FFFFFF;
+}
+
+nav ul li a:hover {
+    transition: all 0.3 ease-out;
+    font-size: 18px;
 }
 
 .brand {
