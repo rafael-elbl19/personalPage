@@ -41,6 +41,7 @@ nav ul li a{
     text-decoration: none;
     padding: 12px; 
     color: #FFFFFF;
+    font-weight: bold;
 }
 
 nav ul p {
@@ -48,8 +49,8 @@ nav ul p {
 }
 
 nav ul li a:hover {
-    transition: all 0.3 ease-out;
-    font-size: 18px;
+    transition: 0.2s ease-out;
+    color: black;
 }
 
 .brand {
